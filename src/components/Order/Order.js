@@ -13,7 +13,7 @@ const Order = () => {
     const [product, setProduct] = useState({})
 
     useEffect(() => {
-        fetch("/tourPackages.json")
+        fetch("https://lit-shore-61156.herokuapp.com/services")
             .then(res => res.json())
             .then(data => setPackages(data))
         // .then(data => console.log(data))
