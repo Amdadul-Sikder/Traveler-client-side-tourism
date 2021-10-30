@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { Spinner } from 'react-bootstrap'
 import "./TourPackages.css"
+import UseFirebase from '../Hooks/UseFirebase';
 
 const TourPackages = () => {
     const [packages, setPackages] = useState([])
@@ -13,7 +15,10 @@ const TourPackages = () => {
         // .then(data => console.log(data))
     }, [])
 
-
+    const { isLoading } = UseFirebase();
+    if (isLoading) {
+        return <Spinner animation="border" variant="danger" />
+    }
     return (
         <div id="tourPack" className="tourPackages-area">
             <div className="container">

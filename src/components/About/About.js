@@ -15,7 +15,7 @@ const About = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="about-img">
-                            <img src="https://image.freepik.com/free-photo/businesspeople-standing-outside-office-building_107420-74307.jpg" alt="" />
+                            <img className="img-fluid" src="https://image.freepik.com/free-photo/businesspeople-standing-outside-office-building_107420-74307.jpg" alt="" />
                         </div>
                     </div>
                 </div>
