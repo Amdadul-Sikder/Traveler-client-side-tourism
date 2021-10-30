@@ -10,3 +10,20 @@
     border: 1px solid #ddd;
     padding: 20px;
 }
+.social-link i.fab {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #1b6f61;
+    height: 30px;
+    width: 30px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.social-link i.fab:hover {
+    color: #e43a15;
+}
+.social-link{
+    align-items: center;
+    justify-content: space-between;
+}

@@ -45,9 +45,9 @@ function App() {
           <Route path="/contact">
             <Contact></Contact>
           </Route>
-          <Route path="/user-profile">
+          <PrivateRoute path="/user-profile">
             <UserProfile></UserProfile>
-          </Route>
+          </PrivateRoute>
         </Switch>
         <Footer></Footer>
       </Router>

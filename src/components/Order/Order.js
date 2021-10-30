@@ -43,15 +43,18 @@ const Order = () => {
                                     <h3 className="pb-3">{product?.name}</h3>
                                     <p>{product?.description}</p>
                                 </div>
-                                <div className="social-link">
-                                    <i className="fab fa-facebook-square"></i>
-                                    <i className="fab fa-youtube-square"></i>
-                                    <i className="fab fa-twitter-square"></i>
-                                    <i className="fab fa-linkedin"></i>
-                                </div>
                                 <h6 className="py-2">Contact: +880123456789</h6>
-                                <Button className="btn btn-primary me-2">Add to Cart</Button>
-                                <Button className="btn btn-danger">Delete</Button>
+                                <div className="social-link d-flex">
+                                    <div>
+                                        <i className="fab fa-facebook-square"></i>
+                                        <i className="fab fa-youtube-square"></i>
+                                        <i className="fab fa-twitter-square"></i>
+                                        <i className="fab fa-linkedin"></i>
+                                    </div>
+                                    <Button className="btn btn-primary">Add to Cart</Button>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>
