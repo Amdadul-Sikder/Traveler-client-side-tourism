@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Sunset view of beautiful lakeside resident",
+        "img": "https://image.freepik.com/free-photo/beautiful-sunset-beach-landscape-with-boat_1112-212.jpg",
+        "description": "Support the purpose advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli",
+        "price": "Price: $500"
+    },
+    {
+        "id": 2,
+        "name": "Experience the natural beauty of island",
+        "img": "https://image.freepik.com/free-photo/aerial-view-phang-nga-bay-with-mountains-sunrise-thailand_335224-1188.jpg",
+        "description": "Support the purpose advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli",
+        "price": "Price: $450"
+    },
+    {
+        "id": 3,
+        "name": "Vacation to the water city of Portugal",
+        "img": "https://image.freepik.com/free-photo/aerial-footage-old-city-port_1153-7296.jpg",
+        "description": "Support the purpose advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli",
+        "price": "Price: $630"
+    },
+    {
+        "id": 4,
+        "name": "Trekking to the base camp of mountain",
+        "img": "https://image.freepik.com/free-photo/group-man-woman-enjoy-camping-picnic-barbecue-lake-with-tents-background-young-mixed-race-asian-woman-man-young-people-s-hands-toasting-cheering-bottles-beer_1253-1041.jpg",
+        "description": "Support the purpose advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli",
+        "price": "Price: $570"
+    },
+    {
+        "id": 5,
+        "name": "Beautiful season of the rural village",
+        "img": "https://image.freepik.com/free-photo/village-bungalows-along-nam-song-river-vang-vieng-laos_335224-1252.jpg",
+        "description": "Support the purpose advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli",
+        "price": "Price: $490"
+    },
+    {
+        "id": 6,
+        "name": "Summer holiday to the Oxolotan River",
+        "img": "https://image.freepik.com/free-photo/panoramic-shot-tranquil-lake-reflecting-blue-sky_181624-17516.jpg",
+        "description": "Support the purpose advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli",
+        "price": "Price: $535"
+    }
+]

@@ -1,0 +1,12 @@
+#order{
+    padding: 50px 0px;
+}
+.product-img{
+    height: 250px;
+    width: 100%;
+}
+.single-product{
+    width: 450px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}

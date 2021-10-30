@@ -1,4 +1,28 @@
 .hero{
     height: 100vh;
+    width: 100%;
     background-color: #ddd;
+    background-image: url("https://preview.colorlib.com/theme/pacific/images/xbg_5.jpg.pagespeed.ic.ijesituTOZ.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+.hero::before{
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    opacity: .5;
+    position: absolute;
+}
+.hero-content{
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    z-index: 99;
+    color: #fff;
+    position: relative;
+}
+.book-btn{
+    width: 200px;
 }
