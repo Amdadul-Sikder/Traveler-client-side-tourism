@@ -8,11 +8,34 @@ import UseFirebase from '../Hooks/UseFirebase';
 const Order = () => {
 
     const { register, handleSubmit, reset, watch, formState: { errors } } = useForm();
+
+
     const onSubmit = data => {
         console.log(data);
         alert("Order completed succesfully");
         reset();
+
+
+
+
+        // // console.log(product);
+        // const orderData = product;
+        // orderData.status = "pending";
+
+        // console.log(orderData);
+        // fetch("https://lit-shore-61156.herokuapp.com/addOrder", {
+        //     method: "POST",
+        //     headers: { "content-type": "application/json" },
+        //     body: JSON.stringify(orderData),
+        // });
+
+
+
+
+
+
     };
+
     const { orderId } = useParams();
 
     const [packages, setPackages] = useState([]);
@@ -70,8 +93,8 @@ const Order = () => {
                             <form onSubmit={handleSubmit(onSubmit)}>
                                 <input placeholder="Name" defaultValue={user.displayName} {...register("name")} />
                                 <input placeholder="Email" defaultValue={user.email} {...register("email")} />
-                                <input placeholder="Address" defaultValue="" {...register("address")} />
-                                <input placeholder="Phone Number" defaultValue="" {...register("phone")} />
+                                <input required placeholder="Address" defaultValue="" {...register("address")} />
+                                <input required placeholder="Phone Number" defaultValue="" {...register("phone")} />
 
                                 {/* <input {...register("exampleRequired", { required: true })} /> */}
                                 {errors.exampleRequired && <span>This field is required</span>}
