@@ -6,9 +6,8 @@
 }
 .dashboard ul {
     margin: 0;
-    padding: 0;
     list-style: none;
-    padding: 50px;
+    padding: 200px 50px;
 }
 
 .dashboard ul li {

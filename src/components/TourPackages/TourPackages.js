@@ -31,7 +31,7 @@ const TourPackages = () => {
                                 <img className="package-img" src={pd.img} alt="" />
                                 <h3>{pd.name}</h3>
                                 <p>{pd.description}</p>
-                                <div className="d-flex justify-content-between">
+                                <div className="mt-5 d-flex justify-content-between">
                                     <h5>{pd.price}</h5>
                                     <Link to={`/order/${pd.id}`}>
                                         <Button className="btn btn-danger booking-btn">Book Now</Button>
