@@ -8,7 +8,7 @@ live Site [https://traveler-c90d6.web.app/](https://traveler-c90d6.web.app/).
 
 * React Based Website
 * React Router & React Hook Form Used
-* Firebase Authentication Used
-* Mongodb Database Used
+* Firebase Authentication Used. Without sign in user can't buy any packages.
+* Mongodb used for Database collection
 * Heroku server Used
 * Responsive Website
